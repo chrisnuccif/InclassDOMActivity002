@@ -64,6 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     });
                     
                     figure.appendChild(featureList);
+                    figure.style.cursor = 'none';
                 });
             }
         }
